@@ -13,8 +13,8 @@ permissions:
 on:
   workflow_dispatch:
 
-  schedule:
-    - cron: "42 3 16 * *" # Run monthly on the 16th day of the month at 03:42 AM (random value as to not overload GitHub)
+#  schedule:
+#     #cron: "42 3 16 * *" # Run monthly on the 16th day of the month at 03:42 AM (random value as to not overload GitHub)
 
 jobs:
   update-tool-version:
